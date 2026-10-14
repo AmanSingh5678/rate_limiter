@@ -1,0 +1,21 @@
+{
+  "name": "rate_limiter",
+  "version": "1.0.0",
+  "description": "rate limiting system to prevent ddos attack",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js",
+    "server": "node server.js" 
+  },
+  "keywords": [
+    "rate",
+    "limiter"
+  ],
+  "author": "Aman Singh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "ioredis": "^6.0.0"
+  }
+}
